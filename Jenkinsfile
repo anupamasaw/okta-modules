@@ -8,12 +8,8 @@ pipeline {
     stage('TF Plan') {
       steps {    
           sh 'terraform init'
-          sh """
-              terraform plan -var okta_idp_social_type=${params.idp}
-              terraform plan -var okta_idp_social_protocol_type=${params.type}
-              terraform plan -var okta_idp_social_name=${params.name}
-                
-          """
+          sh 'terraform plan -out myplan'
+          
         }
       }      
     
