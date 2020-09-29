@@ -9,7 +9,7 @@ pipeline {
       steps {    
           sh 'terraform init'
           sh """
-              terraform plan -var okta_group_name=${params.groupname}
+              terraform plan -var okta_app_saml=${params.newapp}
           """
         }
       }      
