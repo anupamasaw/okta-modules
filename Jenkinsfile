@@ -9,7 +9,10 @@ pipeline {
       steps {    
           sh 'terraform init'
           sh """
-              terraform plan -var okta_app_saml=${params.newapp}
+              terraform plan -var okta_idp_social_type=${params.idp}
+              terraform plan -var okta_idp_social_protocol_type=${params.type}
+              terraform plan -var okta_idp_social_name=${params.name}
+                
           """
         }
       }      
