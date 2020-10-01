@@ -1,5 +1,5 @@
 ### App Saml ###
-resource "okta_app_saml" "demo" {
+resource "okta_app_saml" "usern" {
   label                    = var.okta_app_saml_label
   sso_url                  = var.okta_app_saml_sso_url
   recipient                = var.okta_app_saml_recipient
