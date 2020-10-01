@@ -1,25 +1,25 @@
 
 ### User ###
 variable "okta_user_first_name"{
-  default = "Sohan" 
+  default = "Suhana" 
 }
 variable "okta_user_last_name"{
-  default = "Singh"
+  default = "Singha"
 }
 variable "okta_user_login"{
-  default = "sohan@gmail.com"
+  default = "sohanaa@gmail.com"
 }
 variable "okta_user_email"{
-  default = "sohan@gmail.com"
+  default = "sohanaa@gmail.com"
 }
 
 ### Group ###
 
 variable "okta_group_name"{
-  default = "production env"
+  default = "production envaa"
 }
 variable "okta_group_description"{
-  default = "this is prod group env"
+  default = "this is prod group envaa"
 }
 
 ### Auth Server ###
@@ -29,11 +29,11 @@ variable "okta_auth_server_audiences" {
 }
 
 variable "okta_auth_server_description" {
-  default = "My Example Auth Serverggr"
+  default = "My Example Auth Serverggaaar"
 }
  
 variable "okta_auth_server_name"{
-  default = "demo auth serverhbhbjbk"
+  default = "demo auth serverhbhaaabjbk"
 }
  
 variable "okta_auth_server_issuer_mode" {
@@ -44,7 +44,7 @@ variable "okta_auth_server_issuer_mode" {
 ### App Saml ###
 
 variable "okta_app_saml_label"{
-  default = "demojkjljl"
+  default = "demojkjljlaaa"
 }
 
 variable "okta_app_saml_sso_url" {
@@ -86,7 +86,7 @@ variable "okta_app_saml_honor_force_authn" {
 ### Inline Hook ###
 
 variable "okta_inline_hook_name"{
-  default = "demonnhgg"
+  default = "demonnhgaag"
 }
 
 variable "okta_inline_hook_version" {
@@ -109,7 +109,7 @@ variable "okta_idp_social_protocol_type" {
 }
 
 variable "okta_idp_social_name"{
-  default = "testhbb"
+  default = "testhbaaab"
 }
 
 
