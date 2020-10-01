@@ -48,19 +48,19 @@ variable "okta_app_saml_label"{
 }
 
 variable "okta_app_saml_sso_url" {
-  default = "http://example.com"
+  default = "http://demo.com"
 }
 
 variable "okta_app_saml_recipient" {
-  default = "http://example.com"
+  default = "http://demo.com"
 }
 
 variable "okta_app_saml_destination" {
-  default = "http://example.com"
+  default = "http://demo.com"
 }
 
 variable "okta_app_saml_audience" {
-  default = "http://example.com/audience"
+  default = "http://demo.com/audience"
 }
 
 variable "okta_app_saml_subject_name_id_template" {
