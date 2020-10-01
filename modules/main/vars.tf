@@ -1,25 +1,25 @@
 
 ### User ###
 variable "okta_user_first_name"{
-  default = "Suhana" 
+  default = "Suhnanbba" 
 }
 variable "okta_user_last_name"{
-  default = "Singha"
+  default = "Singhnnha"
 }
 variable "okta_user_login"{
-  default = "sohanaa@gmail.com"
+  default = "sohbanana@gmail.com"
 }
 variable "okta_user_email"{
-  default = "sohanaa@gmail.com"
+  default = "sohgjhanabjba@gmail.com"
 }
 
 ### Group ###
 
 variable "okta_group_name"{
-  default = "production envaa"
+  default = "produbjnction envaabjb"
 }
 variable "okta_group_description"{
-  default = "this is prod group envaa"
+  default = "this is pbjnfbrod group envaanb"
 }
 
 ### Auth Server ###
@@ -29,11 +29,11 @@ variable "okta_auth_server_audiences" {
 }
 
 variable "okta_auth_server_description" {
-  default = "My Example Auth Serverggaaar"
+  default = "My Examnbnple Anbuth Serverggaaar"
 }
  
 variable "okta_auth_server_name"{
-  default = "demo auth serverhbhaaabjbk"
+  default = "debbmo aunknth serverhbhaaabjbk"
 }
  
 variable "okta_auth_server_issuer_mode" {
@@ -44,23 +44,23 @@ variable "okta_auth_server_issuer_mode" {
 ### App Saml ###
 
 variable "okta_app_saml_label"{
-  default = "demojkjljlaaa"
+  default = "ufbmdhhh"
 }
 
 variable "okta_app_saml_sso_url" {
-  default = "http://example.com"
+  default = "http://demo.com"
 }
 
 variable "okta_app_saml_recipient" {
-  default = "http://example.com"
+  default = "http://demo.com"
 }
 
 variable "okta_app_saml_destination" {
-  default = "http://example.com"
+  default = "http://demo.com"
 }
 
 variable "okta_app_saml_audience" {
-  default = "http://example.com/audience"
+  default = "http://demo.com/audience"
 }
 
 variable "okta_app_saml_subject_name_id_template" {
@@ -86,7 +86,7 @@ variable "okta_app_saml_honor_force_authn" {
 ### Inline Hook ###
 
 variable "okta_inline_hook_name"{
-  default = "demonnhgaag"
+  default = "demonbnnbmnhgaag"
 }
 
 variable "okta_inline_hook_version" {
@@ -109,7 +109,7 @@ variable "okta_idp_social_protocol_type" {
 }
 
 variable "okta_idp_social_name"{
-  default = "testhbaaab"
+  default = "testhbbbnbjbjaaab"
 }
 
 
